@@ -30,6 +30,7 @@ a {
 }
 
 #sidebar {
+  color: #555;
   width: 200px;
   position: fixed;
   left: 0;
@@ -52,7 +53,7 @@ a {
     li {
       padding: .45em 0;
       a {
-        color: #FFF;
+        color: #555;
         text-decoration: none;
         transition: all .4s ease;
         &:hover {
@@ -141,7 +142,7 @@ a {
       margin: .5em 0 0 0;
     }
     .body {
-      color: #d3d3d3;
+      color: #8C8C8C;
       margin: .5em 0 0 0;
     }
   }
@@ -155,11 +156,12 @@ a {
       margin-bottom: 0;
     }
     .body {
+      color: #555;
       font-size: 1.1em;
       line-height: 1.75;
     }
     .date_and_author {
-      color: #9eafba;
+      color: #8C8C8C;
       margin: .5em 0 2em 0;
     }
     #comments {
