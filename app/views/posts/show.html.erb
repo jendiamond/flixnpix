@@ -2,7 +2,10 @@
   <h1 class="title"><%= @post.title.upcase %></h1>
 
   <p class="date_and_author">
-    Submitted <%= time_ago_in_words(@post.created_at) %> ago
+    Submitted <%= time_ago_in_words(@post.created_at) %> ago | 
+    <%= link_to 'EDIT',   edit_post_path(@post) %> | 
+    <%= link_to 'DELETE', post_path(@post), method: :delete, data: { confirm: 'Are you sure?' } %> | 
+    <%= link_to 'BACK',   posts_path %>
   </p>
   <hr/>
   <p class="body">
