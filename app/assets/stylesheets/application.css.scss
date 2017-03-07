@@ -40,6 +40,11 @@ a {
   padding: 7em 0 0 0;
   border-right: 1px solid #b8e2fe;
 
+hr {
+  background-color: #fff;
+  border-top: 2px dotted #88D0AD;
+}
+
   ul {
     list-style: none;
     text-align: right;
@@ -79,7 +84,7 @@ a {
 .button {
   outline: none;
   background: transparent;
-  border: 1.5px solid #FFF;
+  border: 1.5px solid #88D0AD;
   padding: .5em 2.5em;
   border-radius: 0.5em;
   &:hover {

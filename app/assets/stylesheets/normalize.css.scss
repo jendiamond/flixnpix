@@ -213,6 +213,10 @@ hr {
   box-sizing: content-box;
   height: 0;
 }
+hr {
+  background-color: #fff;
+  border-top: 2px dotted #88D0AD;
+}
 
 /**
  * Contain overflow in all browsers.
